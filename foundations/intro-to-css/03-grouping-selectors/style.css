@@ -1,0 +1,18 @@
+
+.button1,
+.button2{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif,'Times New Roman', Times, serif;
+}
+.button1{
+    color: white;
+    background-color: black;
+}
+.button2{
+    color:black;
+    background-color: yellow;
+}
+
+.outer-padding{
+    background-color: white;
+}
