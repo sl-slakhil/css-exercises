@@ -7,21 +7,39 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 8px;
+  font-size: 16pt;
+  padding: 8px;
 }
+
+
 
 .content {
   background: #e3f4ff;
+   margin: 8px;
+   padding: 16px 8px;
 }
 
 .button-container {
+
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  margin: 0px  auto;
+  display: block;
+  padding : 8px 24px;
 }
+
+
+- The Big Button is centered on its own line.
+- The Big Button has 24px space on the sides, and 8px on top and bottom.
