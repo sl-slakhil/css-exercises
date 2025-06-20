@@ -24,3 +24,52 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+/*  Sol */
+body{
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.left-links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  text-decoration: none;
+}
+.right-links{
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 16px;
+}
+.button{
+  padding: 8px 16px;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
